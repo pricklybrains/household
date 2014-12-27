@@ -13,6 +13,6 @@ difference(){
     square ([iw-in_bevel-out_bevel,1],center = false);
   translate([in_bevel,5,0]) 
    square ([iw-in_bevel-out_bevel,1],center = false);
-  translate([iw-2.5,3,0]) circle(0.7, $fn=30);
-  polygon(points=[[iw-2.7,3.66],[iw-2.7,2.31],[iw,1.5],[iw,4.5]]);
+  translate([iw-1.5,3]) circle(0.7, $fn=30);
+  polygon(points=[[iw-1.7,3.66],[iw-1.7,2.31],[iw,1.5],[iw,4.5]]);
 }

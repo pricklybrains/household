@@ -20,8 +20,13 @@ module top_bracket_side() {
  }
 }
 
-top_bracket_side();
-translate([0,0,width+3]) top_bracket_side();
-l=gap+6;
-translate([2*r,-r,-(gap-width)/2])
- cube([3,r*2,gap+6]);
+//top_bracket_side();
+//translate([0,0,width+3]) top_bracket_side();
+translate([2*r,-r])
+ cube([3,r*2,width+6]);
+
+module pulley_wheel_side() {
+  //cube([
+}
+
+pulley_wheel_side();
